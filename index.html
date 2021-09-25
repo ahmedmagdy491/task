@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>test</title>
+	</head>
+	<body>
+		<label>Your ID:</label><br />
+		<textarea id="yourId"></textarea> <br />
+		<label>Other ID:</label>
+		<textarea id="otherId"></textarea> <br />
+		<button id="connect">connect</button>
+
+		<label>Enter Message:</label><br />
+		<audio controls id="yourMessage"></audio>
+		<button id="send">send</button>
+		<pre id="messages"></pre>
+		<button id="start">start</button>
+		<button id="stop">stop</button>
+		<div id="audio"></div>
+
+		<script src="app.js" charset="utf-8"></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/simple-peer/9.11.0/simplepeer.min.js"
+			integrity="sha512-0f7Ahsuvr+/P2btTY4mZIw9Vl23lS6LY/Y7amdkmUg2dqsUF+cTe4QjWvj/NIBHJoGksOiqndKQuI9yzn2hB0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+	</body>
+</html>
